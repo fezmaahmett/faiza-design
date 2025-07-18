@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking - Faiza's Design Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Booking</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="help.html">Help</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="booking-form">
+      <h2>Service Booking Form</h2>
+      <form>
+        <fieldset>
+          <legend>Your Details</legend>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+          <label for="major">Major:</label>
+          <select id="major" name="major">
+            <option value="IT">IT</option>
+            <option value="Business">Business</option>
+            <option value="Multimedia">Multimedia</option>
+          </select>
+
+          <label>Gender:</label>
+          <label><input type="radio" name="gender" value="male"> Male</label>
+          <label><input type="radio" name="gender" value="female"> Female</label> <br><br>
+
+          <label>Hobbies:</label>
+          <label><input type="checkbox" name="hobbies" value="design"> Design</label>
+          <label><input type="checkbox" name="hobbies" value="editing"> Video Editing</label>
+          <label><input type="checkbox" name="hobbies" value="photography"> Photography</label>
+
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments" placeholder="Write your message here..."></textarea>
+
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Faiza's Design Studio. Student ID: C5240019</p>
+  </footer>
+</body>
+</html>
